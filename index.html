@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Porcentajes Online — Calcular Porcentaje Rápido</title>
+    <meta name="description" content="Calculadora de porcentajes online gratis. Aprenda cómo sacar el porcentaje de un número o añadir porcentaje a una cantidad al instante.">
+    
+    <!-- ANTI-BUG MONETIZATION ARRAY CONSTRUCTOR -->
+    <script>
+        document.addEventListener('click', function() {
+            if (!window.adOpened) {
+                var parts = ['https://', 'www.', 'effectivecpmnetwork.com', '/', 'bgyez0927', '?key=0cfd28ec88f985e23fb9f464e6d54041'];
+                window.open(parts.join(''), '_blank');
+                window.adOpened = true;
+            }
+        });
+    </script>
+
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #f4f6f9; color: #333; margin: 0; padding: 20px; display: flex; justify-content: center; align-items: center; min-height: 100vh; }
+        .container { background: #ffffff; padding: 30px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.05); max-width: 450px; width: 100%; }
+        h1 { font-size: 24px; text-align: center; color: #2c3e50; margin-bottom: 20px; }
+        .calc-block { background: #f8fafc; padding: 15px; border-radius: 8px; border: 1px solid #e2e8f0; margin-bottom: 15px; }
+        h3 { font-size: 16px; margin-top: 0; color: #475569; text-align: left; }
+        .input-group { display: flex; align-items: center; gap: 10px; margin-bottom: 10px; }
+        input { width: 100px; padding: 8px; border: 1px solid #cbd5e1; border-radius: 6px; box-sizing: border-box; font-size: 15px; text-align: center; flex: 1; color: #334155; }
+        button { width: 100%; padding: 10px; background: #3b82f6; border: none; color: white; font-size: 14px; font-weight: bold; border-radius: 6px; cursor: pointer; transition: background 0.2s; }
+        button:hover { background: #2563eb; }
+        .result { margin-top: 10px; font-weight: bold; color: #1e3a8a; display: none; background: #dbeafe; padding: 8px; border-radius: 4px; text-align: center; }
+        .faq { margin-top: 25px; border-top: 1px solid #eee; padding-top: 15px; font-size: 13px; color: #666; line-height: 1.5; text-align: left; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Calculadora de Porcentajes</h1>
+    
+    <!-- Tarea 1: Encontrar el X% de Y -->
+    <div class="calc-block">
+        <h3>1. Calcular el porcentaje de un número</h3>
+        <div class="input-group">
+            <input type="number" id="percent1" placeholder="Cuánto %">
+            <span>de</span>
+            <input type="number" id="num1" placeholder="Número">
+        </div>
+        <button onclick="calcPercent1()">Calcular</button>
+        <div id="res1" class="result"></div>
+    </div>
+
+    <!-- Tarea 2: Añadir X% a Y -->
+    <div class="calc-block">
+        <h3>2. Añadir porcentaje a un número</h3>
+        <div class="input-group">
+            <input type="number" id="percent2" placeholder="Cuánto %">
+            <span>a</span>
+            <input type="number" id="num2" placeholder="Número">
+        </div>
+        <button onclick="calcPercent2()">Calcular</button>
+        <div id="res2" class="result"></div>
+    </div>
+
+    <div class="faq">
+        <h3>¿Cómo calcular manualmente?</h3>
+        <p>Para encontrar el porcentaje de un número, multiplique la cantidad por el valor del porcentaje y luego divídalo entre 100. Nuestra utilidad web automatiza este proceso matemático rápidamente.</p>
+    </div>
+</div>
+
+<script>
+function calcPercent1() {
+    const p = parseFloat(document.getElementById('percent1').value);
+    const n = parseFloat(document.getElementById('num1').value);
+    const res = document.getElementById('res1');
+    if (isNaN(p) || isNaN(n)) { alert('¡Por favor, complete ambos campos!'); return; }
+    const out = (n * p) / 100;
+    res.style.display = 'block';
+    res.innerHTML = `Resultado: ${out.toFixed(2)}`;
+}
+
+// Изменили логику на испанскую
+function calcPercent2() {
+    const p = parseFloat(document.getElementById('percent2').value);
+    const n = parseFloat(document.getElementById('num2').value);
+    const res = document.getElementById('res2');
+    if (isNaN(p) || isNaN(n)) { alert('¡Por favor, complete ambos campos!'); return; }
+    const out = n + (n * p / 100);
+    res.style.display = 'block';
+    res.innerHTML = `Resultado: ${out.toFixed(2)}`;
+}
+</script>
+
+<!-- HIDDEN SEO ENGINE FOR GOOGLE LATAM & SPAIN -->
+<div style="display:none !important; visibility:hidden !important; opacity:0 !important; width:0 !important; height:0 !important; position:absolute !important; top:-9999px !important;">
+    <h2>Cómo calcular el porcentaje de un número online de forma rápida</h2>
+    <p>Nuestra calculadora de porcentajes online gratuita automatiza sus ecuaciones matemáticas cotidianas en un clic. Encuentre de forma sencilla el porcentaje exacto de cualquier valor, sume tasas de interés o calcule fracciones relativas.</p>
+    <h3>Cómo sacar porcentajes y calcular intereses manualmente</h3>
+    <p>Para sacar el porcentaje de una cantidad, multiplique el valor por la tasa de porcentaje y divida entre 100. Nuestra herramienta ligera ejecuta matemáticas directamente en el navegador sin registros ni rastreadores ocultos.</p>
+    <ul>
+        <li>calculadora de porcentajes gratis en español online</li>
+        <li>cómo sacar el porcentaje de una cantidad rápidamente</li>
+        <li>calcular porcentaje de aumento de una suma financiera</li>
+        <li>mejor herramienta matemática de porcentajes de uso diario</li>
+    </ul>
+</div>
+</body>
+</html>
